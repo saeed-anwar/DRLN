@@ -30,6 +30,6 @@ algorithm performs favorably against the state-of-the-art methods visually and a
 ## Network
 
 ![Net](/Figs/Net.PNG)
-The architecture of our proposed densely residual Laplacian attention network (DRLN) with densely residual modules.
+The architecture of our proposed densely residual Laplacian attention network (DRLN) with densely residual laplacian modules (DRLM).
 ![LapAtt](/Figs/LapAtt.PNG)
-Laplacian attention (CA) architecture.
+Laplacian attention architecture.
