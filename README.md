@@ -35,7 +35,31 @@ The architecture of our proposed densely residual Laplacian attention network (D
 ![LapAtt](/Figs/LapAtt.PNG)
 Laplacian attention architecture.
 
+## Test
+### Quick start
+1. Download the trained models for our paper and place them in '/TestCode/TrainedModels'.
 
+    All the models (BIX2/3/4/8, BDX3) can be downloaded from [Google Drive](https://drive.google.com/open?id=1MwRNAcUOBcS0w6Q7gGNZWYO_AP_svi7i) and [here](https://icedrive.net/0/a81sqSW91R). The 
+
+2. Cd to '/TestCode/code', run the following scripts.
+
+    **You can use scripts in file 'TestDRLN_All' to produce results for our paper or You can also use individual scripts such as TestDRLN_2x.sh**
+
+    ```bash
+    # No self-ensemble: DRLN
+    # BI degradation model, x2, x3
+    # x2
+   CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 2 --model DRLN --n_feats 64 --pre_train ../TrainedModels/DRLN_BIX2/DRLN_BIX2.pt --test_only --save_results --chop --save 'DRLN_Set5' --testpath ../LR/LRBI --testset Set5
+   
+   CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 2 --model DRLN --n_feats 64 --pre_train ../TrainedModels/DRLN_BIX2/DRLN_BIX2.pt --test_only --save_results --chop --save 'DRLN_Set14' --testpath ../LR/LRBI --testset Set14
+    # x3
+   CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 3 --model DRLN --n_feats 64 --pre_train ../TrainedModels/DRLN_BIX3/DRLN_BIX3.pt --test_only --save_results --chop --save 'DRLN_Set5' --testpath ../LR/LRBI --testset Set5
+   
+   CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 3 --model DRLN --n_feats 64 --pre_train ../TrainedModels/DRLN_BIX3/DRLN_BIX3.pt --test_only --save_results --chop --save 'DRLN_Set14' --testpath ../LR/LRBI --testset Set14
+   
+    # x3 Blur-downgrade 
+   CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 3 --model DRLN --n_feats 64 --pre_train ../TrainedModels/DRLN_BDX3/DRLN_BDX3.pt --test_only --save_results --chop --save 'DRLN_BD_Set5' --testpath ../LR/LRBD --testset Set5
+    ```
 
 
 ## Results
