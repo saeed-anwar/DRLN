@@ -27,6 +27,8 @@ features to learn the inter and intra-level dependencies between the feature map
 qualitative evaluations on low-resolution, noisy low-resolution, and real historical image benchmark datasets illustrate that our DRLN
 algorithm performs favorably against the state-of-the-art methods visually and accurately.
 
+![PSNR_SSIM_BI](/Figs/front.PNG)
+
 ## Network
 
 ![Net](/Figs/Net.PNG)
@@ -41,12 +43,13 @@ Laplacian attention architecture.
 ### Quantitative Results
 ![PSNR_SSIM_BI](/Figs/23_table.PNG)
 ![PSNR_SSIM_BI](/Figs/48_table.PNG)
+The performance of state-of-the-art algorithms on widely used publicly available five datasets (SET5, SET14, BSD100, URBAN100, MANGA109), in terms of PSNR (in dB) and SSIM. The best results are highlighted with red color while the blue color represents the second best super-resolution method.
 ![PSNR_SSIM_BI](/Figs/BD_table.PNG)
 ![PSNR_SSIM_BI](/Figs/noiseplot.PNG)
 
 Quantitative results with BI degradation model. Best and second best results are highlighted and underlined
 
-For more results, please refer to our [main papar](https://arxiv.org/abs/1807.02758) and [supplementary file](http://yulunzhang.com/papers/ECCV-2018-RCAN_supp.pdf).
+For more information, please refer to our [papar](https://arxiv.org/pdf/1906.12021.pdf)
 ### Visual Results
 ![Visual_PSNR_SSIM_BI](/Figs/4x.PNG)
 Visual results with Bicubic (BI) degradation (4×) on “img 074” from Urban100
