@@ -147,38 +147,22 @@ Visual results with Bicubic (BI) degradation (4×) on “img 074” from Urban10
 
 Visual comparison for 4× SR with BI model
 
-![Visual_PSNR_SSIM_BI](/Figs/fig6_visual_psnr_ssim_bi_x8.PNG)
-Visual comparison for 8× SR with BI model
-
-![Visual_PSNR_SSIM_BD](/Figs/fig7_visual_psnr_ssim_bd_x3.PNG)
-Visual comparison for 3× SR with BD model
-
-![Visual_Compare_GAN_PSNR_SSIM_BD](/Figs/supp_fig1_visual_compare_gan_psnr_ssim_bi_x4_1.PNG)
-![Visual_Compare_GAN_PSNR_SSIM_BD](/Figs/supp_fig1_visual_compare_gan_psnr_ssim_bi_x4_2.PNG)
-![Visual_Compare_GAN_PSNR_SSIM_BD](/Figs/supp_fig1_visual_compare_gan_psnr_ssim_bi_x4_3.PNG)
-Visual comparison for 4× SR with BI model on Set14 and B100 datasets.
-The best results are highlighted. SRResNet, SRResNet VGG22, SRGAN MSE, SR-
-GAN VGG22, and SRGAN VGG54 are proposed in [CVPR2017SRGAN], ENet E and ENet PAT are
-proposed in [ICCV2017EnhanceNet]. These comparisons mainly show the eﬀectiveness of our proposed
-RCAN against GAN based methods
-
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
 ```
-@InProceedings{Lim_2017_CVPR_Workshops,
-  author = {Lim, Bee and Son, Sanghyun and Kim, Heewon and Nah, Seungjun and Lee, Kyoung Mu},
-  title = {Enhanced Deep Residual Networks for Single Image Super-Resolution},
-  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-  month = {July},
-  year = {2017}
+@article{anwar2019drln,
+  title={Densely Residual Laplacian Super-Resolution},
+  author={Anwar, Saeed and Barnes, Nick},
+  journal={arXiv preprint arXiv:1906.12021},
+  year={2019}
 }
 
-@inproceedings{zhang2018rcan,
-    title={Image Super-Resolution Using Very Deep Residual Channel Attention Networks},
-    author={Zhang, Yulun and Li, Kunpeng and Li, Kai and Wang, Lichen and Zhong, Bineng and Fu, Yun},
-    booktitle={ECCV},
-    year={2018}
+@article{anwar2019deepSR,
+  title={A Deep Journey into Super-resolution: A survey},
+  author={Anwar, Saeed and Khan, Salman and Barnes, Nick},
+  journal={arXiv preprint arXiv:1904.07523},
+  year={2019}
 }
 ```
 ## Acknowledgements
-This code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch). We thank the authors for sharing their codes of EDSR [Torch version](https://github.com/LimBee/NTIRE2017) and [PyTorch version](https://github.com/thstkdgus35/EDSR-PyTorch).
+This code is built on [RCAN (PyTorch)] (https://github.com/yulunzhang/RCAN) and [EDSR (PyTorch)] (https://github.com/thstkdgus35/EDSR-PyTorch). We thank the authors for sharing their codes.
