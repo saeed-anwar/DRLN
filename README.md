@@ -39,7 +39,7 @@ Laplacian attention architecture.
 ### Quick start
 1. Download the trained models for our paper and place them in '/TestCode/TrainedModels'.
 
-    All the models (BIX2/3/4/8, BDX3) can be downloaded from [Google Drive](https://drive.google.com/open?id=1MwRNAcUOBcS0w6Q7gGNZWYO_AP_svi7i) and [here](https://icedrive.net/0/a81sqSW91R). The 
+    All the models (BIX2/3/4/8, BDX3) can be downloaded from [Google Drive](https://drive.google.com/open?id=1MwRNAcUOBcS0w6Q7gGNZWYO_AP_svi7i) and [here](https://icedrive.net/0/a81sqSW91R). The total size for all models is 737 MB.
 
 2. Cd to '/TestCode/code', run the following scripts.
 
