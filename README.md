@@ -3,7 +3,7 @@ This repository is for Densely Residual Laplacian Network (DRLN) introduced in t
 
 [Saeed Anwar](https://saeed-anwar.github.io/), [Nick Barnes], "Densely Residual Laplacian Super-resolution", [[arXiv]](https://arxiv.org/abs/1906.12021)
 
-The model is built in pyTorch 1.1.0 and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA9.0, cuDNN5.1).
+The model is built in PyTorch 1.1.0 and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA9.0, cuDNN5.1).
 
 Our DRLN is also available in PyTorch 0.4.0 and 0.4.1. You can download this version from [Google Drive](https://drive.google.com/open?id=1I91VGposSoFq6UrWBuxCKbst6sMi1yhR) or [here](https://icedrive.net/0/cb986Jh8rh). 
 
