@@ -44,15 +44,21 @@ Laplacian attention architecture.
 ![PSNR_SSIM_BI](/Figs/23_table.PNG)
 ![PSNR_SSIM_BI](/Figs/48_table.PNG)
 The performance of state-of-the-art algorithms on widely used publicly available five datasets (SET5, SET14, BSD100, URBAN100, MANGA109), in terms of PSNR (in dB) and SSIM. The best results are highlighted with red color while the blue color represents the second best super-resolution method.
-![PSNR_SSIM_BI](/Figs/BD_table.PNG)
-![PSNR_SSIM_BI](/Figs/noiseplot.PNG)
 
-Quantitative results with BI degradation model. Best and second best results are highlighted and underlined
+
+![PSNR_SSIM_BI](/Figs/BD_table.PNG)
+Quantitative results on  blur-down degradations for 3x. The best results are highlighted with red color while the blue color represents the second best.
+
+
+![PSNR_SSIM_BI](/Figs/noiseplot.PNG)
+The plot shows the average PSNR as functions of noise sigma. Our method consistently improves over specific
+noisy super-resolution methods and CNN for all noise levels.
 
 For more information, please refer to our [papar](https://arxiv.org/pdf/1906.12021.pdf)
+
 ### Visual Results
 ![Visual_PSNR_SSIM_BI](/Figs/4x.PNG)
-Visual results with Bicubic (BI) degradation (4×) on “img 074” from Urban100
+Visual results with Bicubic (BI) degradation (4x) on “img 074” from Urban100
 
 
 ![Visual_PSNR_SSIM_BI](/Figs/8x.PNG)
