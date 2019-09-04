@@ -3,8 +3,6 @@ This repository is for Densely Residual Laplacian Network (DRLN) introduced in t
 
 [Saeed Anwar](https://saeed-anwar.github.io/), [Nick Barnes], "Densely Residual Laplacian Super-resolution", [[arXiv]](https://arxiv.org/abs/1906.12021)
 
-The code and models will be available soon here.
-
 The model is built in PyTorch and tested on Ubuntu 14.04/16.04 environment (Python3.6, PyTorch_0.4.0/pyTorch_1.1.0, CUDA9.0, cuDNN5.1).
 
 ## Contents
@@ -28,6 +26,7 @@ qualitative evaluations on low-resolution, noisy low-resolution, and real histor
 algorithm performs favorably against the state-of-the-art methods visually and accurately.
 
 ![PSNR_SSIM_BI](/Figs/front.PNG)
+Sample results on URBAN100 with Bicubic (BI) degradation for 4x on “img 074” and for 8x on “img 040”.
 
 ## Network
 
