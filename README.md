@@ -165,4 +165,4 @@ If you find the code helpful in your resarch or work, please cite the following 
 }
 ```
 ## Acknowledgements
-This code is built on [RCAN (PyTorch)] (https://github.com/yulunzhang/RCAN) and [EDSR (PyTorch)] (https://github.com/thstkdgus35/EDSR-PyTorch). We thank the authors for sharing their codes.
+This code is built on [RCAN (PyTorch)](https://github.com/yulunzhang/RCAN) and [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch). We thank the authors for sharing their codes.
