@@ -77,6 +77,7 @@ Noisy visual comparison on Llama. Textures on the fur, and on rocks in the backg
 compared to the conventional BM3D-SR and BM3D-SRNI.
 
 ![Visual_PSNR_SSIM_BI](/Figs/real.PNG)
+
 Comparison on real-world images. In these cases, neither the downsampling blur kernels nor the ground-truth images are available.
 
 
