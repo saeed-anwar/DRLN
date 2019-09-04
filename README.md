@@ -51,6 +51,7 @@ Quantitative results on  blur-down degradations for 3x. The best results are hig
 
 
 ![PSNR_SSIM_BI](/Figs/noiseplot.PNG)
+
 The plot shows the average PSNR as functions of noise sigma. Our method consistently improves over specific
 noisy super-resolution methods and CNN for all noise levels.
 
@@ -58,16 +59,27 @@ For more information, please refer to our [papar](https://arxiv.org/pdf/1906.120
 
 ### Visual Results
 ![Visual_PSNR_SSIM_BI](/Figs/4x.PNG)
-Visual results with Bicubic (BI) degradation (4x) on “img 074” from Urban100
+Visual results with Bicubic (BI) degradation (4x) on "img 076" and "img_044" from URBAN100 as well as YumeiroCooking from MANGA109.
 
 
 ![Visual_PSNR_SSIM_BI](/Figs/8x.PNG)
-![Visual_PSNR_SSIM_BI](/Figs/3x.PNG)
-![Visual_PSNR_SSIM_BI](/Figs/BSDNoisy.PNG)
-![Visual_PSNR_SSIM_BI](/Figs/lamaNoisy.PNG)
-![Visual_PSNR_SSIM_BI](/Figs/real.PNG)
+Comparisons on images with fine details for a high upsampling factor of 8x on URBAN100 and MANGA109. The best results are in bold.
 
-Visual comparison for 4× SR with BI model
+![Visual_PSNR_SSIM_BI](/Figs/3x.PNG)
+Comparison on Blur-Downscale (BD) degraded images with sharp edges and texture, taken from URBAN100 and SET14
+datasets for the scale of 3x. The sharpness of the edges on the objects and textures restored by our method is the best.
+
+![Visual_PSNR_SSIM_BI](/Figs/BSDNoisy.PNG)
+Noisy SR visual Comparison on BSD100. Textures on the birds are much better reconstructed, and the noise removed by our method as
+compared to the IRCNN and RCAN for sigma = 10.
+
+![Visual_PSNR_SSIM_BI](/Figs/lamaNoisy.PNG)
+Noisy visual comparison on Llama. Textures on the fur, and on rocks in the background are much better reconstructed in our result as
+compared to the conventional BM3D-SR and BM3D-SRNI.
+
+![Visual_PSNR_SSIM_BI](/Figs/real.PNG)
+Comparison on real-world images. In these cases, neither the downsampling blur kernels nor the ground-truth images are available.
+
 
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
