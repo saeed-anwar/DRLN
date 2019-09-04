@@ -9,6 +9,7 @@ The model is built in PyTorch and tested on Ubuntu 14.04/16.04 environment (Pyth
 
 ## Contents
 1. [Introduction](#introduction)
+2. [Network](#network)
 2. [Train](#train)
 3. [Test](#test)
 4. [Results](#results)
@@ -26,3 +27,9 @@ features to learn the inter and intra-level dependencies between the feature map
 qualitative evaluations on low-resolution, noisy low-resolution, and real historical image benchmark datasets illustrate that our DRLN
 algorithm performs favorably against the state-of-the-art methods visually and accurately.
 
+## Network
+
+![Net](/Figs/Net.PNG)
+The architecture of our proposed densely residual Laplacian attention network (DRLN) with densely residual modules.
+![LapAtt](/Figs/LapAtt.PNG)
+Laplacian attention (CA) architecture.
