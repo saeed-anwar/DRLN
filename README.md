@@ -39,6 +39,8 @@ Laplacian attention architecture.
 
 
 ## Results
+All the results for DRLN can be downloaded from [GoogleDrive](https://drive.google.com/open?id=1NJ20pHYolkzTBDB2UUy7pvY9F9sIyqO2) or [here](https://icedrive.net/0/bcATKQGntn). The size of the results is 2.41 GB 
+
 ### Quantitative Results
 ![PSNR_SSIM_BI](/Figs/23_table.PNG)
 ![PSNR_SSIM_BI](/Figs/48_table.PNG)
