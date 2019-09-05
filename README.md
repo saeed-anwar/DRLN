@@ -37,6 +37,9 @@ The architecture of our proposed densely residual Laplacian attention network (D
 ![LapAtt](/Figs/LapAtt.PNG)
 Laplacian attention architecture.
 
+## Train
+**Will be added later**
+
 ## Test
 ### Quick start
 1. Download the trained models for our paper and place them in '/TestCode/TrainedModels'.
