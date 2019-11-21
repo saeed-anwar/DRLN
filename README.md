@@ -81,7 +81,7 @@ Quantitative results on  blur-down degradations for 3x. The best results are hig
 
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/DRLN/blob/master/Figs/noiseplot.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/DRLN/blob/master/Figs/noiseplot.PNG">
 </p>
 
 The plot shows the average PSNR as functions of noise sigma. Our method consistently improves over specific
