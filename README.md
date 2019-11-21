@@ -71,16 +71,16 @@ Laplacian attention architecture.
 **All the results for DRLN can be downloaded from [GoogleDrive](https://drive.google.com/open?id=1NJ20pHYolkzTBDB2UUy7pvY9F9sIyqO2) or [here](https://icedrive.net/0/bcATKQGntn). The size of the results is 2.41GB** 
 
 ### Quantitative Results
-![PSNR_SSIM_BI](/Figs/23_table.PNG)
-![PSNR_SSIM_BI](/Figs/48_table.PNG)
+![PSNR_SSIM_2x3xtable](/Figs/23_table.PNG)
+![PSNR_SSIM_4x8xtable](/Figs/48_table.PNG)
 The performance of state-of-the-art algorithms on widely used publicly available five datasets (SET5, SET14, BSD100, URBAN100, MANGA109), in terms of PSNR (in dB) and SSIM. The best results are highlighted with red color while the blue color represents the second best super-resolution method.
 
 
-![PSNR_SSIM_BI](/Figs/BD_table.PNG)
+![PSNR_SSIM_BDTable](/Figs/BD_table.PNG)
 Quantitative results on  blur-down degradations for 3x. The best results are highlighted with red color while the blue color represents the second best.
 
 
-![PSNR_SSIM_BI](/Figs/noiseplot.PNG)
+![PSNR_SSIM_noiseplot](/Figs/noiseplot.PNG)
 
 The plot shows the average PSNR as functions of noise sigma. Our method consistently improves over specific
 noisy super-resolution methods and CNN for all noise levels.
@@ -88,14 +88,14 @@ noisy super-resolution methods and CNN for all noise levels.
 For more information, please refer to our [papar](https://arxiv.org/pdf/1906.12021.pdf)
 
 ### Visual Results
-![Visual_PSNR_SSIM_BI](/Figs/4x.PNG)
+![Visual_PSNR_SSIM_4x](/Figs/4x.PNG)
 Visual results with Bicubic (BI) degradation (4x) on "img 076" and "img_044" from URBAN100 as well as YumeiroCooking from MANGA109.
 
 
-![Visual_PSNR_SSIM_BI](/Figs/8x.PNG)
+![Visual_PSNR_SSIM_8x](/Figs/8x.PNG)
 Comparisons on images with fine details for a high upsampling factor of 8x on URBAN100 and MANGA109. The best results are in bold.
 
-![Visual_PSNR_SSIM_BI](/Figs/3x.PNG)
+![Visual_PSNR_SSIM_3x](/Figs/3x.PNG)
 Comparison on Blur-Downscale (BD) degraded images with sharp edges and texture, taken from URBAN100 and SET14
 datasets for the scale of 3x. The sharpness of the edges on the objects and textures restored by our method is the best.
 
@@ -103,12 +103,14 @@ datasets for the scale of 3x. The sharpness of the edges on the objects and text
 Noisy SR visual Comparison on BSD100. Textures on the birds are much better reconstructed, and the noise removed by our method as
 compared to the IRCNN and RCAN for sigma = 10.
 
-![Visual_PSNR_SSIM_BI](/Figs/lamaNoisy.PNG)
+![Visual_PSNR_SSIM_Lama](/Figs/lamaNoisy.PNG)
 Noisy visual comparison on Llama. Textures on the fur, and on rocks in the background are much better reconstructed in our result as
 compared to the conventional BM3D-SR and BM3D-SRNI.
 
-![Visual_PSNR_SSIM_BI](/Figs/real.PNG)
-
+![Visual_PSNR_SSIM_real](/Figs/real.PNG)
+<p align="center">
+  <img width="500" src="https://github.com/saeed-anwar/DRLN/blob/master/Figs/real.PNG">
+</p>
 Comparison on real-world images. In these cases, neither the downsampling blur kernels nor the ground-truth images are available.
 
 
