@@ -80,7 +80,9 @@ The performance of state-of-the-art algorithms on widely used publicly available
 Quantitative results on  blur-down degradations for 3x. The best results are highlighted with red color while the blue color represents the second best.
 
 
-![PSNR_SSIM_noiseplot](/Figs/noiseplot.PNG)
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/DRLN/blob/master/Figs/noiseplot.PNG">
+</p>
 
 The plot shows the average PSNR as functions of noise sigma. Our method consistently improves over specific
 noisy super-resolution methods and CNN for all noise levels.
@@ -107,9 +109,8 @@ compared to the IRCNN and RCAN for sigma = 10.
 Noisy visual comparison on Llama. Textures on the fur, and on rocks in the background are much better reconstructed in our result as
 compared to the conventional BM3D-SR and BM3D-SRNI.
 
-![Visual_PSNR_SSIM_real](/Figs/real.PNG)
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/DRLN/blob/master/Figs/real.PNG">
+  <img width="600" src="https://github.com/saeed-anwar/DRLN/blob/master/Figs/real.PNG">
 </p>
 Comparison on real-world images. In these cases, neither the downsampling blur kernels nor the ground-truth images are available.
 
