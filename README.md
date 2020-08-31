@@ -1,7 +1,7 @@
 # Densely Residual Laplacian Super-resolution
 This repository is for Densely Residual Laplacian Network (DRLN) introduced in the following paper
 
-[Saeed Anwar](https://saeed-anwar.github.io/), [Nick Barnes], "Densely Residual Laplacian Super-resolution", [[arXiv]](https://arxiv.org/abs/1906.12021)
+[Saeed Anwar](https://saeed-anwar.github.io/), [Nick Barnes], "[Densely Residual Laplacian Super-resolution](https://arxiv.org/abs/1906.12021)", IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020.
 
 The model is built in PyTorch 1.1.0 and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA9.0, cuDNN5.1).
 
@@ -121,16 +121,25 @@ If you find the code helpful in your resarch or work, please cite the following 
 @article{anwar2019drln,
   title={Densely Residual Laplacian Super-Resolution},
   author={Anwar, Saeed and Barnes, Nick},
-  journal={arXiv preprint arXiv:1906.12021},
-  year={2019}
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  year={2020}
 }
 
-@article{anwar2019deepSR,
-  title={A Deep Journey into Super-resolution: A survey},
-  author={Anwar, Saeed and Khan, Salman and Barnes, Nick},
-  journal={arXiv preprint arXiv:1904.07523},
-  year={2019}
+@article{anwar2020deepSR,
+author = {Anwar, Saeed and Khan, Salman and Barnes, Nick},
+title = {A Deep Journey into Super-Resolution: A Survey},
+year = {2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {53},
+number = {3},
+issn = {0360-0300},
+journal = {ACM Computing Surveys},
+month = may,
+articleno = {60},
+numpages = {34},
 }
+
 ```
 ## Acknowledgements
 This code is built on [RCAN (PyTorch)](https://github.com/yulunzhang/RCAN) and [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch). We thank the authors for sharing their codes.
