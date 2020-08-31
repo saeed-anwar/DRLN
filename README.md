@@ -10,7 +10,6 @@ Our DRLN is also available in PyTorch 0.4.0 and 0.4.1. You can download this ver
 ## Contents
 1. [Introduction](#introduction)
 2. [Network](#network)
-2. [Train](#train)
 3. [Test](#test)
 4. [Results](#results)
 5. [Citation](#citation)
@@ -37,8 +36,6 @@ The architecture of our proposed densely residual Laplacian attention network (D
 ![LapAtt](/Figs/LapAtt.PNG)
 Laplacian attention architecture.
 
-## Train
-**Will be added later**
 
 ## Test
 ### Quick start
