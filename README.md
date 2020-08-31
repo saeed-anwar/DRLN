@@ -119,25 +119,25 @@ Comparison on real-world images. In these cases, neither the downsampling blur k
 If you find the code helpful in your resarch or work, please cite the following papers.
 ```
 @article{anwar2019drln,
-  title={Densely Residual Laplacian Super-Resolution},
-  author={Anwar, Saeed and Barnes, Nick},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
-  year={2020}
+    title={Densely Residual Laplacian Super-Resolution},
+    author={Anwar, Saeed and Barnes, Nick},
+    journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+    year={2020}
 }
 
 @article{anwar2020deepSR,
-author = {Anwar, Saeed and Khan, Salman and Barnes, Nick},
-title = {A Deep Journey into Super-Resolution: A Survey},
-year = {2020},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-volume = {53},
-number = {3},
-issn = {0360-0300},
-journal = {ACM Computing Surveys},
-month = may,
-articleno = {60},
-numpages = {34},
+    author = {Anwar, Saeed and Khan, Salman and Barnes, Nick},
+    title = {A Deep Journey into Super-Resolution: A Survey},
+    year = {2020},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {53},
+    number = {3},
+    issn = {0360-0300},
+    journal = {ACM Computing Surveys},
+    month = may,
+    articleno = {60},
+    numpages = {34},
 }
 
 ```
