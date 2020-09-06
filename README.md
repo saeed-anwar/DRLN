@@ -1,7 +1,7 @@
 # Densely Residual Laplacian Super-resolution
 This repository is for Densely Residual Laplacian Network (DRLN) introduced in the following paper
 
-[Saeed Anwar](https://saeed-anwar.github.io/), [Nick Barnes], "[Densely Residual Laplacian Super-resolution](https://arxiv.org/abs/1906.12021)", IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020.
+[Saeed Anwar](https://saeed-anwar.github.io/), [Nick Barnes], "[Densely Residual Laplacian Super-resolution](https://www.computer.org/csdl/journal/tp/5555/01/09185010/1mNmSufHH8c)", IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020. [arXiv version](https://arxiv.org/abs/1906.12021)
 
 The model is built in PyTorch 1.1.0 and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA9.0, cuDNN5.1).
 
@@ -84,8 +84,6 @@ Quantitative results on  blur-down degradations for 3x. The best results are hig
 The plot shows the average PSNR as functions of noise sigma. Our method consistently improves over specific
 noisy super-resolution methods and CNN for all noise levels.
 
-For more information, please refer to our [papar](https://arxiv.org/pdf/1906.12021.pdf)
-
 ### Visual Results
 ![Visual_PSNR_SSIM_4x](/Figs/4x.PNG)
 Visual results with Bicubic (BI) degradation (4x) on "img 076" and "img_044" from URBAN100 as well as YumeiroCooking from MANGA109.
@@ -111,6 +109,7 @@ compared to the conventional BM3D-SR and BM3D-SRNI.
 </p>
 Comparison on real-world images. In these cases, neither the downsampling blur kernels nor the ground-truth images are available.
 
+For more information, please refer to our [paper](https://arxiv.org/pdf/1906.12021.pdf)
 
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
