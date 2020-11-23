@@ -1,7 +1,7 @@
 # Densely Residual Laplacian Super-resolution
 This repository is for Densely Residual Laplacian Network (DRLN) introduced in the following paper
 
-[Saeed Anwar](https://saeed-anwar.github.io/), [Nick Barnes], "[Densely Residual Laplacian Super-resolution](https://www.computer.org/csdl/journal/tp/5555/01/09185010/1mNmSufHH8c)", IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020. [arXiv version](https://arxiv.org/abs/1906.12021), and [Supplementary Materials](https://s3.amazonaws.com/ieeecs.cdn.csdl.public/trans/tp/5555/01/extras/ttp555501-09185010s1-supp1-3021088.pdf)
+[Saeed Anwar](https://saeed-anwar.github.io/), Nick Barnes, "[Densely Residual Laplacian Super-resolution](https://www.computer.org/csdl/journal/tp/5555/01/09185010/1mNmSufHH8c)", IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020. [arXiv version](https://arxiv.org/abs/1906.12021), and [Supplementary Materials](https://s3.amazonaws.com/ieeecs.cdn.csdl.public/trans/tp/5555/01/extras/ttp555501-09185010s1-supp1-3021088.pdf)
 
 The model is built in PyTorch 1.1.0 and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA9.0, cuDNN5.1).
 
